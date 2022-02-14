@@ -1,0 +1,206 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: linear-gradient(
+    to right,
+    rgb(167, 77, 194),
+    rgb(235, 143, 204)
+  );
+  display: grid;
+  gap: 30px;
+  justify-items: center;
+  margin-top: 60px;
+}
+
+header {
+  display: grid;
+  justify-items: center;
+  gap: 40px;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.logo {
+  max-width: 70%;
+  padding: 20px;
+  margin: 30px;
+}
+
+a {
+  font-size: 25px;
+  text-decoration: none;
+  display: flex;
+  display: inline-block;
+  gap: 20px;
+  border: 2px solid rgb(129, 12, 165);
+  border-radius: 5px;
+  padding: 20px;
+}
+
+a:hover {
+  background: rgb(158, 12, 93);
+  color: rgb(34, 17, 11);
+}
+
+a:focus {
+  background-color: rgb(136, 12, 80);
+  color: black;
+}
+
+.topo a:hover {
+  color: rgb(34, 17, 11);
+  border: 5px solid rgb(150, 8, 102);
+}
+
+.topo a:focus {
+  background-color: rgb(136, 12, 80);
+  color: black;
+}
+
+h2,
+p,
+span {
+  margin: 0px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.pij {
+  text-align: right;
+}
+
+h2,
+h3,
+h4,
+h5 {
+  color: rgb(78, 5, 72);
+  font-size: 20px;
+  margin: 0px;
+}
+
+.det {
+  text-align: left;
+  display: grid;
+  display: block;
+  grid-template-columns: auto 1fr;
+  gap: 10px 20px;
+  padding: 20px;
+}
+
+.det:hover {
+  border-left: 5px solid rgb(231, 17, 238);
+}
+
+.det:nth-child(odd) {
+  background: #cf73e6;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  margin: 10px;
+}
+
+.topo {
+  display: flex;
+  flex-wrap: wrap;
+  place-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0px;
+  padding: 20px;
+}
+
+.topo a {
+  text-decoration: none;
+  background-color: rgb(188, 131, 196);
+  color: rgb(109, 12, 88);
+  display: block;
+  padding: 10px 20px;
+  margin: 20px;
+  gap: 20px;
+  align-items: center;
+}
+
+.conteudo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 1000px;
+  gap: 10px;
+  grid-column: 1 / -1;
+  grid-template-rows: auto;
+  margin: 20px;
+  margin-top: 0px;
+  position: relative;
+}
+
+.primeiro {
+  background-color: rgb(188, 131, 196);
+  display: inline-block;
+  padding: 40px;
+  text-align: right;
+  position: relative;
+  display: grid;
+  gap: 20px;
+  align-content: center;
+  justify-items: end;
+}
+
+.detalhe {
+  background-color: rgb(131, 16, 112);
+  border: 3px;
+  border-radius: 4px;
+  width: 60px;
+  height: 6px;
+  position: absolute;
+  top: 30px;
+  left: -30px;
+}
+
+.veja {
+  font-size: 15px;
+  background-color: rgb(235, 73, 186);
+  border: 1px solid rgb(221, 28, 163);
+  color: rgb(29, 0, 16);
+  margin: 0px;
+  padding: 10px 20px;
+}
+
+.terceiro {
+  text-align: right;
+  display: grid;
+  position: relative;
+}
+
+h1 {
+  position: absolute;
+  color: rgb(208, 138, 218);
+  font-size: 50px;
+  padding: 10px 10px;
+  margin: 35px;
+  margin-top: 400px;
+}
+
+.quarto {
+  background-color: rgb(188, 131, 196);
+  text-align: left;
+  padding: 10px;
+  align-content: center;
+  display: grid;
+  gap: 30px;
+}
+
+.descricao {
+  gap: 10px 20px;
+  padding: 20px;
+}
+
+.rodape {
+  font-size: 25px;
+  color: #450a53;
+}
